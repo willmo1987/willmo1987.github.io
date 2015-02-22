@@ -8,10 +8,10 @@ highlighter: pygments
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : Will Mo
+title : Will
 tagline: 踏实、谦虚、勤奋、上进！
 author :
-  name : Will Mo
+  name : Will
   email : willmo1987@gmail.com
   github : willmo1987
 
