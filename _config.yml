@@ -1,6 +1,7 @@
 # Permalinks
 permalink:        pretty
 relative_permalinks: true
+highlighter: pygments
 
 # Setup
 title:            Will的博客
