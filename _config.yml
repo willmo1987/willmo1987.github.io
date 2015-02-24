@@ -15,8 +15,8 @@ author:
 
 #Page list
 pages_list:       
-  About: '/about'
-  Archive: '/archive'
+  目录: '/archive'
+  关于我: '/about'
   Feed: '/atom.xml'
 
 # Custom vars
