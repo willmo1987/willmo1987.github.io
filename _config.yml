@@ -6,7 +6,7 @@ relative_permalinks: true
 title:            Will的博客
 tagline:          踏实、谦虚、勤奋、上进！
 url:              http://willclub.me
-paginate:         1
+paginate:         3
 baseurl:          /
 author:
   name:           Will Mo
