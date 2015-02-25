@@ -3,10 +3,10 @@ layout: post
 comments: true
 title: CoreData多线程下NSManagedObjectContext的使用
 ---
-
+<br>
 &emsp;&emsp;本人去年10月份才接触IOS项目的，项目中用到了CoreData，由于需要调用子线程进行API请求，所以需要在子线程中使用NSManagedObjectContext进行数据的增删改查。因此当时百度了很多相关东西，但是没有得到我要的答案，后来硬着头皮Google了很多英文博客和论坛（本人英文水平其实还可以，英文文档看起来也没那么吃力，但总归不是母语，到现在都有一种抵触感），研究的也是一知半解，由于项目进度不能耽搁，也没有深究，最后选用了persistentStoreCoordinator<-mainContext<-privateContext这样的结构，让我完成了需求。
 
-&emsp;&emsp;由于刚过完年，手头上的工作不多，想着重构一下之前写的代码。由于之前CoreData的代码虽然让我完成了项目需求，但是始终没有让我感到有安全感，所以重构代码的第一件事就是好好研究CoreData。在Google的时候，我发现了这样两篇老外的博客（http://floriankugler.com/blog/2013/4/2/the-concurrent-core-data-stack，http://floriankugler.com/blog/2013/4/29/concurrent-core-data-stack-performance-shootout）。前者是介绍NSManagedObjectContext在多线程下的三种设计，后者是博主对这三种设计进行的性能测试。下面我将一一介绍：
+&emsp;&emsp;由于刚过完年，手头上的工作不多，想着重构一下之前写的代码。由于之前CoreData的代码虽然让我完成了项目需求，但是始终没有让我感到有安全感，所以重构代码的第一件事就是好好研究CoreData。在Google的时候，我发现了这样两篇老外的博客，[博客1](http://floriankugler.com/blog/2013/4/2/the-concurrent-core-data-stack) ，[博客2](http://floriankugler.com/blog/2013/4/29/concurrent-core-data-stack-performance-shootout)。前者是介绍NSManagedObjectContext在多线程下的三种设计，后者是博主对这三种设计进行的性能测试。下面我将一一介绍：
 
 1. persistentStoreCoordinator<-mainContext<-privateContext
 

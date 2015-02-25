@@ -4,11 +4,11 @@ comments: true
 title: LinearLayout和RelativeLayout
 ---
 
-##缘由
+###缘由
 
 &emsp;&emsp;上周末在家上网看技术文档，无意中发现一哥们儿的[Blog](http://stormzhang.github.io/)，界面干净整洁，结构清晰，颜色搭配也很舒服，于是非常有阅读的欲望。这里解释一下，我这人有点洁癖的，这不光体现在生活中，写代码或文档也是。以往查资料的时候，也看过非常多的Blog，转载的，或转载不注明出处的就不提了，有些原创的Blog实在是没法看，排版乱七八糟，要不是为了解决问题，实在是一眼都不想看。所以像这类排版整齐界面干净的Blog还是比较吸引我眼球的，顿时就有了非常想阅读的欲望。于是我就挑了一些自己比较感兴趣的几篇看起来了，其中有一篇讲到[Android的布局优化](http://stormzhang.github.io/android/2014/04/10/android-optimize-layout/)，文章从Layout的选用、include标签、merge标签和ViewStub标签四个方面介绍了怎样优化Android的布局，其中大部分的内容我还是比较赞同的，唯独LinearLayout相对RelativeLayout的性能更好一点我不是很同意，所以今天有这个冲动想发表一下我的看法。
 
-##我眼中的LinearLayout和RelativeLayout
+###我眼中的LinearLayout和RelativeLayout
 
 &emsp;&emsp;LinearLayout和RelativeLayout都是Android的基本控件，特点如下：
 
@@ -23,9 +23,9 @@ title: LinearLayout和RelativeLayout
 2. 看情况搭配使用RelativeLayout和LinearLayout
 3. 不要滥用LinearLayout，尤其是layout_weight属性，这是一个比较耗性能的属性，慎用！
 
-##总结
+###总结
 
 &emsp;&emsp;比较RelativeLayout和LinearLayout的目的就是为了搭建一个性能较好的布局，但是这两个最基本的Layout控件都是Google精心设计优化过的，性能上的差距可以忽略，比较也没有意义，只要记住我一上总结的三点，做出来的就是一个性能最优的布局。
     另外再附上一篇[Android官方的开发者博客](http://android-developers.blogspot.com/2009/02/android-layout-tricks-1.html)，里面介绍了一个使用RelativeLayout的小技巧—android:layout_alignWithParentIfMissing属性的使用，我也是头一回见，涨姿势啊！
 
-###注：关于layout_weight的配置和计算方法我计划在下一篇博客中详细解释，为什么要设置宽度为0dp，好像match_parent也没问题？
+####注：关于layout_weight的配置和计算方法我计划在下一篇博客中详细解释，为什么要设置宽度为0dp，好像match_parent也没问题？
