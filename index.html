@@ -19,6 +19,8 @@ title: Home
   {% endfor %}
 </div>
 
+{% include baidu_analytics.html %}
+
 <div class="pagination">
   {% if paginator.next_page %}
     <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
