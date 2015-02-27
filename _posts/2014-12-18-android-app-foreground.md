@@ -2,7 +2,7 @@
 layout: post
 title: Android判断App是否运行在前台
 categories: Android
-tags: 分析
+tags: appStatus
 ---
 <br>
 &emsp;&emsp;前几天，公司项目中集成了推送功能，相信大家应该很熟悉，一旦集成了推送功能，那么Android客户端就得按需求弹出相应的Notification，而且当用户点击Notification的时候，也要做出相应的处理。紧接着就出现了一个比较棘手的问题，当用户点击Notification的时候，我们的App有可能正在前台运行，也有可能被用户关掉或者Home键隐藏掉了，这时，我们在处理点击事件的时候不得不做出判断，App到底运行在前台还是在后台呢？看样子貌似很简单，觉得Android SDK应该会提供相应的API供开发者调用，结果是并没有，我们不得不通过其他手段来获取App当前的状态。

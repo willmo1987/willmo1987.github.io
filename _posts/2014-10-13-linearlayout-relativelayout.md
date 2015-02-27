@@ -2,7 +2,7 @@
 layout: post
 title: LinearLayout和RelativeLayout
 categories: Android
-tags: layout UI
+tags: layout
 ---
 
 ###缘由
