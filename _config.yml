@@ -1,0 +1,13 @@
+markdown: rdiscount
+permalink: /:title/
+url: http://willclub.me
+highlighter: pygments
+name: Will的博客
+author: Will
+email: willmo1987@gmail.com
+duoshuo: willclub
+weibo: 52806031
+github: willmo1987
+safe: true
+paginate: 30
+about: "踏实、谦虚、勤奋、上进！"
