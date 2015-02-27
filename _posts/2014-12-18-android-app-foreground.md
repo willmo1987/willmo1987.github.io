@@ -11,7 +11,7 @@ tags: 分析
 
 版本1
 
-{% highlight java %}
+{% highlight java linenos %}
 public static boolean isAppOnForeground(Context context) {
   ActivityManager activityManager = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
   List<ActivityManager.RunningAppProcessInfo> appProcesses = activityManager.getRunningAppProcesses();
@@ -31,7 +31,7 @@ public static boolean isAppOnForeground(Context context) {
 
 版本2
 
-{% highlight java %}
+{% highlight java linenos %}
 public static boolean isAppOnForeground(Context context) {
   String packageName = context.getPackageName();
   ActivityManager activityManager = (ActivityManager) context.getSystemService(Context.ACTIVITY_SERVICE);
@@ -59,7 +59,7 @@ public static boolean isAppOnForeground(Context context) {
 
 &emsp;&emsp;针对这个问题我没有再用Lollipop系统继续测试，可能这个方法在Lollipop上还是有效的，但是个人觉得这个方法迟早会被抛弃的，所以开始Google其他更好的解决方案。果然，发现了一篇老外的博客[foreground or background](http://steveliles.github.io/is_my_android_app_currently_foreground_or_background.html)，很好的解决了这个问题。仔细阅读之后发现，Android 在4.0之后，Application类中新增了一个名叫[ActivityLifecycleCallbacks](http://developer.android.com/reference/android/app/Application.ActivityLifecycleCallbacks.html)的接口，顾名思义，该接口是Activity生命周期的回调，下面是接口定义：
 
-{% highlight java %}
+{% highlight java linenos %}
 public interface ActivityLifecycleCallbacks {
   void onActivityCreated(Activity activity, Bundle savedInstanceState);
   void onActivityStarted(Activity activity);
@@ -85,7 +85,7 @@ public interface ActivityLifecycleCallbacks {
     
 &emsp;&emsp;讲解了这么多，相信大家应该理解了大致的思路了，下面是我参考上述老外的博客[foreground or background](http://steveliles.github.io/is_my_android_app_currently_foreground_or_background.html)修改以及精简了之后的部分实现，供大家参考。希望大家还是读一读英文原文的博客，老外给的实现功能还不仅仅是判断App在前台还是在后台，当App进入前台或者后台的时候，还有相应的回调方法，有类似需求的同学更要仔细研读一下。
 
-{% highlight java %}
+{% highlight java linenos %}
 public boolean isForeground(){
   return foreground;
 }

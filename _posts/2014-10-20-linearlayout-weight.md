@@ -9,7 +9,7 @@ tags: layout 分析
 
 &emsp;&emsp;下面是一个很简单的layout.xml，RelativeLayout中垂直居中显示一个LinearLayout，LinearLayout中水平显示三个不同颜色的View，当前设置是每个View的layout_width = 0dp，layout_weight = 1：
 
-{% highlight xml %}
+{% highlight xml linenos %}
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
@@ -64,7 +64,7 @@ tags: layout 分析
     
 &emsp;&emsp;有点费解吧，有的一样，有的不一样，有的还很怪，为什么呢？我们一起来看看LinearLayout中onMeasure()的源码，由于源码太多，我摘了最重要的一部分，其他用省略号代替：
 
-{% highlight java %}
+{% highlight java linenos %}
 ...
 int delta = widthSize - mTotalLength;
 if (skippedMeasure || delta != 0 && totalWeight > 0.0f) {
