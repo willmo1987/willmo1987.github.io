@@ -20,8 +20,7 @@ public static boolean isAppOnForeground(Context context) {
   }
   final String packageName = context.getPackageName();
   for (ActivityManager.RunningAppProcessInfo appProcess : appProcesses) {
-    if (appProcess.importance == 		ActivityManager.RunningAppProcessInfo.IMPORTANCE_FOREGROUND 
-    && appProcess.processName.equals(packageName)) {
+    if (appProcess.importance == ActivityManager.RunningAppProcessInfo.IMPORTANCE_FOREGROUND && appProcess.processName.equals(packageName)) {
       return true;
     }
   }
