@@ -20,7 +20,7 @@ tags: fresco
 
 另外你还需要预先下载[Android NDK](https://developer.android.com/tools/sdk/ndk/index.html)，并且将Android NDK的路径配置到环境变量里面，具体的下载与配置我这里就不再描述了，作为一个优秀的程序员这些都不是问题，记得翻墙哦。
 
-&emsp;&emsp;相信大部分朋友用的是Windows系统，但是由于我本人已抛弃Windows太久，家里的Windows机器已过花甲之年，也已病入膏肓所以就没有在Windows系统上尝试，但是从[Github上的Fresco issues](https://github.com/facebook/fresco/issues?q=is%3Aopen+is%3Aissue)来看，Windows的导入还是存在问题的，因为Facebook的团队都是用Mac或者Linux来开发的，所以Windows上并没有测试过，所以会出现各种各样的bug，这里有一个[Github上关于Windows的open issue](https://github.com/facebook/fresco/issues/24)大家可以参考一下。
+&emsp;&emsp;相信大部分朋友用的是Windows系统，但是由于我本人已抛弃Windows太久，家里的Windows机器已过花甲之年，也已病入膏肓所以就没有在Windows系统上尝试，但是从[Github上的Fresco issues](https://github.com/facebook/fresco/issues?q=is%3Aopen+is%3Aissue)来看，Windows的导入还是存在问题的，至少我写这篇博客的时候还没有解决。由于Facebook的团队都是用Mac或者Linux来开发的，所以Windows上并没有测试过，所以会出现各种各样的bug，这里有一个[Github上关于Windows的open issue](https://github.com/facebook/fresco/issues/24)大家可以参考一下。
 
 &emsp;&emsp;好了，让我们继续来看Mac上怎么导入的，首先，将[Fresco](https://github.com/facebook/fresco)从Github上clone下来。**这里跟大家提醒一下，整个导入过程最好翻墙，因为在导入以及后面build的时候，有部分资源是必须翻墙才能访问的。而且导入以及build的过程比较耗时，需要下载很多相关资源，所以最好确保自己在网络状况良好的情况下尝试导入。这也是我为什么没有录制成视频课程的主要原因。**打开Android Studio，选择Import Project，如图：
 
