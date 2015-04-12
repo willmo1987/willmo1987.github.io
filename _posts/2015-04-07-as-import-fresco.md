@@ -5,6 +5,8 @@ categories: Android
 tags: fresco
 ---
 
+&emsp;&emsp;**本博客为个人原创，转载需在明显位置注明出处：http://willclub.me/as-import-fresco/**
+
 &emsp;&emsp;大概一周之前，Facebook开源了专为Android系统定制的图片下载缓存工具，当天该消息就上了各大技术论坛网站的头条，也成为了各个技术群里讨论的最主要的话题。也就在当天[stay4it](http://stay4it.com/)的QQ群里面就有人尝试着用Android Studio导入Fresco，折腾了半天还是失败了，发生这种情况的不止一个人，很多人都碰到这样的问题，导入不成功，编译不了，更别说运行了。前两天正好清明节放假，我怀着好奇的心情也尝试了一次，发现确实很麻烦，但是最终还是成功的编译运行了。先分享一下sample运行的效果图，勾引一下大家：
 
 ![fresco_sample](/images/fresco_sample.png)

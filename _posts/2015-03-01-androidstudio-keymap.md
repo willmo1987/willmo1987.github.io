@@ -5,7 +5,8 @@ categories: Android
 tags: tools
 ---
 
-<br>
+&emsp;&emsp;**本博客为个人原创，转载需在明显位置注明出处：http://willclub.me/androidstudio-keymap/**
+
 &emsp;&emsp;Android Studio的1.1.0版本都发布了，ADT也不会再更新了，童鞋们还有理由不换嘛，不要死守着Eclipse了，Android Studio是你唯一的也是最好的选择。什么？用Eclipse用惯了，快捷键神马的很难改过来的。放心，用Android Studio开发照样可以保持Eclipse的快捷键，下面跟我一步一步配置吧！
 
 &emsp;&emsp;下载安装神马的我就不说了，对于程序员的你应该不是问题，直接[Android Developer](developer.android.com)下去。运行Android Studio，新建一个HelloWorld工程，如果你是第一次运行Studio的话，它会自动帮你下载gradle，如果不翻墙，这个过程会非常缓慢，为了提高大家的工作效率，我建议大家购买VPN，不光是为了开发资源的下载，在使用Android Studio的时候我们也时常需要访问“墙外”的资源。

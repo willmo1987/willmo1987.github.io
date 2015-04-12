@@ -5,6 +5,8 @@ categories: Android
 tags: layout
 ---
 
+&emsp;&emsp;**本博客为个人原创，转载需在明显位置注明出处：http://willclub.me/linearlayout-relativelayout/**
+
 ###我眼中的LinearLayout和RelativeLayout
 
 &emsp;&emsp;LinearLayout和RelativeLayout都是Android的基本控件，特点如下：

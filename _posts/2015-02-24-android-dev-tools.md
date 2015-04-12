@@ -4,7 +4,9 @@ title: Android开发实用工具
 categories: Android
 tags: tools
 ---
-<br>
+
+&emsp;&emsp;**本博客为个人原创，转载需在明显位置注明出处：http://willclub.me/android-dev-tools/**
+
 &emsp;&emsp;今天给大家介绍几个比较实用的工具：
 
 * 开发类

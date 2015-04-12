@@ -5,6 +5,8 @@ categories: Android
 tags: tip
 ---
 
+&emsp;&emsp;**本博客为个人原创，转载需在明显位置注明出处：http://willclub.me/android-launch-background-app/**
+
 &emsp;&emsp;接上一篇博客[Android判断App是否运行在前台]({{ page.previous.url }})，当用户点击Notification时，我们需要判断此时App运行在前台还是后台，如果App运行在前台，我们一般处理是直接跳转到相应的通知detail界面或者干脆clear掉Notification，App内未读bage的显示会引导用户查看未读消息；如果App运行在后台，大多数情况会直接跳转到Notification的detail界面，方便用户查看。
 
 &emsp;&emsp;针对App在后台的情况，公司产品经理给出的需求是clear掉Noification，启动App即可。一开始以为这样实现起来简单太多，只需要new一个Intent然后startActivity就好了，分分钟搞定的事情，事实上并没有，这个问题耗费了我大概两个小时去搜解决方案和测试，最后终于搞定。事实上它确实很简单，只需要按AndroidManifest.xml中入口Activity的配置来实现就可以了。
