@@ -5,7 +5,7 @@ categories: iOS
 tags: CoreData
 ---
 
-&emsp;&emsp;**本博客为个人原创，转载需在明显位置注明出处：http://willclub.me/coredata-multithread/**
+&emsp;&emsp;**本博客为个人原创，转载需在明显位置注明出处**
 
 &emsp;&emsp;本人去年10月份才接触IOS项目的，项目中用到了CoreData，由于需要调用子线程进行API请求，所以需要在子线程中使用NSManagedObjectContext进行数据的增删改查。因此当时百度了很多相关东西，但是没有得到我要的答案，后来硬着头皮Google了很多英文博客和论坛（本人英文水平其实还可以，英文文档看起来也没那么吃力，但总归不是母语，到现在都有一种抵触感），研究的也是一知半解，由于项目进度不能耽搁，也没有深究，最后选用了persistentStoreCoordinator<-mainContext<-privateContext这样的结构，让我完成了需求。
 
