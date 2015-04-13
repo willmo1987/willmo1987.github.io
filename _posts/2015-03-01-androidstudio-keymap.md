@@ -5,7 +5,7 @@ categories: Android
 tags: tools
 ---
 
-&emsp;&emsp;**本博客为个人原创，转载需在明显位置注明出处**
+> **本博客为个人原创，转载需在明显位置注明出处**
 
 &emsp;&emsp;Android Studio的1.1.0版本都发布了，ADT也不会再更新了，童鞋们还有理由不换嘛，不要死守着Eclipse了，Android Studio是你唯一的也是最好的选择。什么？用Eclipse用惯了，快捷键神马的很难改过来的。放心，用Android Studio开发照样可以保持Eclipse的快捷键，下面跟我一步一步配置吧！
 

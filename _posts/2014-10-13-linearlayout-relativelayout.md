@@ -5,7 +5,7 @@ categories: Android
 tags: layout
 ---
 
-&emsp;&emsp;**本博客为个人原创，转载需在明显位置注明出处**
+> **本博客为个人原创，转载需在明显位置注明出处**
 
 ###我眼中的LinearLayout和RelativeLayout
 

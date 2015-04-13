@@ -5,7 +5,7 @@ categories: Android
 tags: layout
 ---
 
-&emsp;&emsp;**本博客为个人原创，转载需在明显位置注明出处**
+> **本博客为个人原创，转载需在明显位置注明出处**
 
 &emsp;&emsp;在我们项目开发中，经常会用到LinearLayout + layout_weight这样的组合，印象比较深的应该是用Eclipse开发的时候，当你将某个View控件layout_weight设为1之后，lint总是警告你需要讲layout_width设为0dp，但是好像设为match_parent也没有问题，结果是一样的，另外子View设置layout_weight之后需要LinearLayout设置weightSum嘛，如果设置了，weightSum != layout_weight之和会怎么样，今天就跟大家探讨一下这个问题。
 

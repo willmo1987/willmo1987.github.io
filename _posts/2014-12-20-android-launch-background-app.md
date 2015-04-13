@@ -5,7 +5,7 @@ categories: Android
 tags: tip
 ---
 
-&emsp;&emsp;**本博客为个人原创，转载需在明显位置注明出处**
+> **本博客为个人原创，转载需在明显位置注明出处**
 
 &emsp;&emsp;接上一篇博客[Android判断App是否运行在前台]({{ page.previous.url }})，当用户点击Notification时，我们需要判断此时App运行在前台还是后台，如果App运行在前台，我们一般处理是直接跳转到相应的通知detail界面或者干脆clear掉Notification，App内未读bage的显示会引导用户查看未读消息；如果App运行在后台，大多数情况会直接跳转到Notification的detail界面，方便用户查看。
 
