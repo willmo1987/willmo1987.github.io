@@ -2,7 +2,7 @@
 layout: post
 title: LinearLayout和RelativeLayout
 categories: Android
-tags: layout
+tags: Layout
 ---
 
 > **本博客为个人原创，转载需在明显位置注明出处**

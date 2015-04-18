@@ -2,7 +2,7 @@
 layout: post
 title: Material Design系列之RecyclerView（一）
 categories: Android
-tags: layout
+tags: RecyclerView
 ---
 
 > **本博客为个人原创，转载需在明显位置注明出处**

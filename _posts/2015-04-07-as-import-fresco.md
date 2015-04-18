@@ -2,7 +2,7 @@
 layout: post
 title: 怎样用Android Studio导入Fresco
 categories: Android
-tags: fresco
+tags: Fresco
 ---
 
 > **本博客为个人原创，转载需在明显位置注明出处**

@@ -2,7 +2,7 @@
 layout: post
 title: 知乎——你遇见过的最高明的骗术
 categories: 随笔
-tags: funny
+tags: Funny
 ---
 
 &emsp;&emsp;今天午休时候翻看[飘过的小牛](http://github.thinkingbar.com/)的博客，我的博客模板就是参考他的，其中发现他分享了一篇知乎上的[你遇到过的最高明的骗术是怎样的](http://www.zhihu.com/question/20443079/answer/30720836)，觉得很有趣，这里给大家分享一下。
