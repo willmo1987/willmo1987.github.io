@@ -5,7 +5,7 @@ tags: [Funny]
 categories: [随笔]
 ---
 
-&emsp;&emsp;今天午休时候翻看[飘过的小牛](http://github.thinkingbar.com/)的博客，我的博客模板就是参考他的，其中发现他分享了一篇知乎上的[你遇到过的最高明的骗术是怎样的](http://www.zhihu.com/question/20443079/answer/30720836)，觉得很有趣，这里给大家分享一下。
+&emsp;&emsp;今天午休时候翻看[飘过的小牛](http://github.thinkingbar.com/)的博客，我之前用过他的博客模板，其中发现他分享了一篇知乎上的[你遇到过的最高明的骗术是怎样的](http://www.zhihu.com/question/20443079/answer/30720836)，觉得很有趣，这里给大家分享一下。
 
 &emsp;&emsp;曾经 2008年,那时我有一个枯燥无比的工作。在移动做技术维护。工作起来经常就是在野外山岭的移动基站，即使没什么事干也要蹲上一天半天。
 
