@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Android判断App是否运行在前台
-categories: Android
-tags: AppStatus
+title: "Android判断App是否运行在前台"
+tags: [AppStatus]
+categories: [Android]
 ---
 
 > **本博客为个人原创，转载需在明显位置注明出处**

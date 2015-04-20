@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Android开发实用工具
-categories: Android
-tags: Tools
+title: "Android开发实用工具"
+tags: [Tools]
+categories: [Android]
 ---
 
 > **本博客为个人原创，转载需在明显位置注明出处**

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: LinearLayout中layout_weight的计算
-categories: Android
-tags: Layout
+title: "LinearLayout中layout_weight的计算"
+tags: [Layout]
+categories: [Android]
 ---
 
 > **本博客为个人原创，转载需在明显位置注明出处**

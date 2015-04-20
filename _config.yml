@@ -1,13 +1,34 @@
-markdown: rdiscount
-permalink: /:title/
-url: http://willclub.me
-highlighter: pygments
-name: Will的博客
-author: Will
-email: willmo1987@gmail.com
-duoshuo: willclub
-weibo: 1339864074
-github: willmo1987
-safe: true
-paginate: 30
-about: "踏实、谦虚、勤奋、上进！"
+# Dependencies
+markdown:         rdiscount
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+# Setup
+title:            WillClub
+description:      '踏实、谦虚、勤奋、上进！'
+url:              http://willclub.me
+baseurl:          /
+logo:             /content/images/portrait.jpg
+
+author:
+  name:           'Will'
+  url:            https://github.com/willmo1987
+  email: 		  willmo1987@gmail.com
+paginate:         5
+
+
+duoshuo:          willclub
+
+github:           https://github.com/willmo1987
+facebook:         https://www.facebook.com/will.mo1987
+  #repo:           https://github.com/willmo1987/willmo1987.github.io
+
+# gems:
+  # - jekyll-sitemap
+
+kramdown:
+  # Enable GitHub Flavored Markdown (fenced code blocks)
+  input: GFM

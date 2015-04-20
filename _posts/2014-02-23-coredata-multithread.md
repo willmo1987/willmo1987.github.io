@@ -1,8 +1,8 @@
 ---
 layout: post
-title: CoreData多线程下NSManagedObjectContext的使用
-categories: iOS
-tags: CoreData
+title: "CoreData多线程下NSManagedObjectContext的使用"
+tags: [CoreData]
+categories: [iOS]
 ---
 
 > **本博客为个人原创，转载需在明显位置注明出处**

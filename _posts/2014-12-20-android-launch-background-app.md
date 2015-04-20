@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Android启动运行在后台的App
-categories: Android
-tags: tip
+title: "Android启动运行在后台的App"
+tags: [tip]
+categories: [Android]
 ---
 
 > **本博客为个人原创，转载需在明显位置注明出处**

@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Android Studio设置Eclipse风格快捷键
-categories: Android
-tags: Tools
+title: "Android Studio设置Eclipse风格快捷键"
+tags: [AndroidStudio]
+categories: [Android]
 ---
 
 > **本博客为个人原创，转载需在明显位置注明出处**
