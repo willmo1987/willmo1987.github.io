@@ -54,7 +54,7 @@ private void setupRecyclerView() {
 }
 {% endhighlight %}
 
-&emsp;&emsp;如果这是个静态列表，那么可以调用setHasFixedSize(true)。接着跟ListView不一样的来了，setLayoutManager()方法，这个方法表示给RecyclerView指定一个布局类型，我当前设置的是LinearLayout并且是Vertical的类型，也就是说当前的设置跟ListView的效果是一样的。但是不同的是，你可以调用这个方法将RecyclerView设置成其他类型的布局，比如Horizontal的LinearLayout或者GridLayout，这就是我为什么RecyclerView强大的地方。最后咱们说说Adapter和ViewHolder，这里的Adapter不再继承自BaseAdapter了，ViewHolder也不再是自定义的独立的类了，它们都要继承子RecyclerView的Adapter和ViewHolder内部类。先看看代码吧：
+&emsp;&emsp;如果这是个静态列表，那么可以调用setHasFixedSize(true)。接着跟ListView不一样的来了，setLayoutManager()方法，这个方法表示给RecyclerView指定一个布局类型，我当前设置的是LinearLayout并且是Vertical的类型，也就是说当前的设置跟ListView的效果是一样的。除此之外，你还可以调用这个方法将RecyclerView设置成其他类型的布局，比如Horizontal的LinearLayout或者GridLayout等，这就是我为什么说RecyclerView强大的地方。如果你不太明白LayoutManager是什么情况，没关系，下一篇博客我会详细讲解。最后咱们说说Adapter和ViewHolder，这里的Adapter不再继承自BaseAdapter了，ViewHolder也不再是自定义的独立的类了，它们都要继承子RecyclerView的Adapter和ViewHolder内部类。先看看代码吧：
 
 {% highlight java linenos %}
 private class ViewHolder extends RecyclerView.ViewHolder {

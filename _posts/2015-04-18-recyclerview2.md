@@ -84,7 +84,7 @@ notifyItemRangeRemoved(int positionStart, int itemCount)
 
 &emsp;&emsp;所有这些itemView的动画都是通过ItemAnimator实现的，可以通过recyclerView.setItemAnimator()方法设置，默认情况下RecyclerView中运用了DefaultItemAnimator，所以我们可以轻松实现。如果你想自定义ItemView的动画，你可以继承ItemAnimator来自定义CustomItemAnimator，达到你想要的效果。除此之外，一位日本朋友在Github上的开源了[recyclerview-animators](https://github.com/wasabeef/recyclerview-animators)，stars是1000+的，大家可以学习学习，看看别人是怎么实现这些动画的。
 
-&emsp;&emsp;**本博客所有的源码都在[LearnMaterialDesign](https://github.com/willmo1987/LearnMaterialDesign)上，水平有限，能力一般，还请大家斧正，下一篇博客再见**。
+**PS: 本博客所有的源码都在[LearnMaterialDesign](https://github.com/willmo1987/LearnMaterialDesign)上，水平有限，能力一般，还请大家斧正，下一篇博客再见**。
 
 
 
