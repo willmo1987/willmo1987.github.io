@@ -165,4 +165,4 @@ listSelector的实现较divider来说要简单一些，就是在itemView的rootL
 
 好了，RecyclerView的基本内容到这里已经介绍完毕，以后如果有一些使用上的心得或者某些进阶类的使用我再给大家分享。
 
-**PS：所有Material Design的相关代码均可参考我Github上的[LearnMaterialDesign](https://github.com/willmo1987/LearnMaterialDesign)。**
+**PS：关于上述DividerItemDecoration的实现，我参考了[fatfingers](https://gist.github.com/fatfingers)分享在Gist上的[DividerItemDecoration](https://gist.github.com/fatfingers/233abbae200b5e87297b)。另，所有Material Design的相关代码均可参考我Github上的[LearnMaterialDesign](https://github.com/willmo1987/LearnMaterialDesign)。**
