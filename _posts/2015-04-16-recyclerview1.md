@@ -161,6 +161,8 @@ public void onBindViewHolder(RecyclerView.ViewHolder holder, int position) {
 
 ![md_recyclerview_multitype](/images/md_recyclerview_multitype.png)
 
-&emsp;&emsp;这就是RecyclerView的第一部分内容，水平有限，能力一般，欢迎大家斧正并恳请大家继续关注Material Design系列的博客，近期我会持续更新。
+这就是RecyclerView的第一部分内容，水平有限，能力一般，欢迎大家斧正并恳请大家继续关注Material Design系列的博客，近期我会持续更新。
 
-**&emsp;&emsp;PS：关于效果图中的阴影效果，其实是两个View的新属性android:elevation和android:translationZ，只有在Lollipop以上的系统中才有效并且该View一定要设置background，不然阴影不会显示。具体代码大家可以参考我Github上的[LearnMaterialDesign](https://github.com/willmo1987/LearnMaterialDesign)。**
+**UPDATE：**RecyclerView中没有现成的方法让我们添加HeaderView和FooterView，但是了解了MultiType的实现，我们可以轻松利用这种方式搞定，自己动手实现一下呗！！
+
+**PS：关于效果图中的阴影效果，其实是两个View的新属性android:elevation和android:translationZ，只有在Lollipop以上的系统中才有效并且该View一定要设置background，不然阴影不会显示。具体代码大家可以参考我Github上的[LearnMaterialDesign](https://github.com/willmo1987/LearnMaterialDesign)。**
